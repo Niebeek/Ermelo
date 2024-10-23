@@ -1,0 +1,56 @@
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    [class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+header {
+    background-image: url(afbeeldingen/kasteel-staverden.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#een {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    font-style: normal;
+    position: relative;
+    left: 100px;
+    color: #273a99;
+}
+.img1 {
+    float: right;
+    width: 20%;
+    margin-right: 5px;
+    border: 2px solid white;
+    padding: 5px;
+}
+.col-9 {
+    background-color: #f6d516;
+}
+footer {
+    width: 100%;
+    min-height: 50px;
+    background-color: #273a99;
+    color: #f6d516;
+    text-align: center;
+    clear: left;
+}
